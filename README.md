@@ -1,6 +1,8 @@
 # Fast Food Calorie Estimation Project
 
 This project is designed to use the YOLO (You Only Look Once) model to identify fast food items, estimate their calorie content, and provide a user interface through a Flask web application.
+![Ekran görüntüsü 2024-08-03 145456](https://github.com/user-attachments/assets/35bd2ab0-209d-463f-a7d2-80535a3ba532)
+
 
 ## About the Project
 
@@ -16,13 +18,20 @@ In this project, we have developed a system that uses artificial intelligence te
 
 ## Dataset and Model Training
 
+
 ### Data Collection
 We created a comprehensive fast food image dataset for our project. This dataset includes images collected from various fast food restaurants and online sources.
 
+
 ### Data Labeling
 The collected images were labeled according to the YOLO format. This process involved determining the locations and classes of each food item in every image.
+I use makesense.ai in labeling.
+![Ekran görüntüsü 2024-08-03 162745](https://github.com/user-attachments/assets/73fe01ec-d16c-4bae-94c0-13e9e929fd1f)
+
 
 ### Model Training
+![Ekran görüntüsü 2024-08-03 162848](https://github.com/user-attachments/assets/8620a8d4-4e9c-4292-b8e4-f906c45dc8ea)
+
 The YOLO model was trained on the labeled dataset. Our model can detect the following fast food items:
 - Pizza
 - Burger
@@ -33,6 +42,9 @@ The YOLO model was trained on the labeled dataset. Our model can detect the foll
 - Onion Rings
 
 ## Application Features
+
+![Ekran görüntüsü 2024-08-03 141314](https://github.com/user-attachments/assets/94da7bf3-307b-435a-8634-0b5c3e6f8b2a)
+
 
 Our application offers users the following features:
 1. Image upload: Users can upload a fast food photo they want to analyze.
@@ -75,7 +87,7 @@ Our application offers users the following features:
 - sudo apt install build-essential
 - sudo apt install cmake ninja-build
 - sudo apt install python3-pip
-- git clone https://github.com/busenurileri/CalorieEstimationProject.git
+- git clone https://github.com/busenurileri/CalorieDetectionProject.git
 - cd CalorieEstimationProject
 If you want, you can create your own dataset in YOLO format using the appropriate functions in `main.py`, or you can directly run `app.py` to start the application.In order to run a python file write in command line:
 - python3 "filename.py"
