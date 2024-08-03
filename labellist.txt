@@ -1,0 +1,7 @@
+pizza
+burger
+friedpatato
+nugget
+cola
+hotdog
+onionring

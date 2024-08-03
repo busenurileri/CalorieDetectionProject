@@ -1,0 +1,11 @@
+names:
+- pizza
+- burger
+- friedpatato
+- nugget
+- cola
+- hotdog
+- onionring
+nc: 7
+train: /home/buse/CalorieProjectLast/yolo_format/images/train
+val: /home/buse/CalorieProjectLast/yolo_format/images/val
