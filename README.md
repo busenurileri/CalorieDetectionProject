@@ -87,6 +87,9 @@ Our application offers users the following features:
 - sudo apt install build-essential
 - sudo apt install cmake ninja-build
 - sudo apt install python3-pip
+- pip install torch torchvision
+- pip install opencv-python
+- pip install ultralytics
 - git clone https://github.com/busenurileri/CalorieDetectionProject.git
 - cd CalorieEstimationProject
 If you want, you can create your own dataset in YOLO format using the appropriate functions in `main.py`, or you can directly run `app.py` to start the application.In order to run a python file write in command line:
